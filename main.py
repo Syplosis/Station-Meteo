@@ -45,8 +45,8 @@ while 1:
 	#Connection au serveur ftp
 	from ftplib import FTP
 	host = "ftp.lescigales.org" 
-	user = "s61_ftp "
-	password = "1HJu4hdD" 
+	user = "###" // votre nom d'uitlisateur
+	password = "###" // votre mdp
 	connect = FTP(host,user,password) 
 	f_name = "meteo.html"
 	f = open(f_name, 'rb')
